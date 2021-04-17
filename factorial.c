@@ -1,4 +1,4 @@
-#include <stdio.h>
+`#include <stdio.h>
 
 
 /** Calculates the factorial of n. It is defined as:
@@ -7,8 +7,12 @@
  * @return calculated result of n!
  */
 int factorial (int n) {
-    // ADD CODE HERE
-    return 0; // EDIT THIS
+    int fact = 1, i;
+    
+    for (i = n; i > 1; i--){
+    	fact = fact * i; 
+	}
+    return fact; 
 }
 
 
@@ -24,4 +28,4 @@ int main(void) {
     printf("%d! = %d\n", k,factorial(k));
 
     return 0;
-}
+}`
