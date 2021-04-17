@@ -18,13 +18,13 @@ int series(int a, int b){
 
     int sum;
 
-    for (int i = a, i<b; i++){
+    for (int i = a; i<=b; i++){
 
     sum += i;
 
     }
 
-    return i; //EDIT THIS
+    return sum; //EDIT THIS
 }
 
 
